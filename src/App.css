@@ -45,3 +45,18 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+/* Prevents white hover effect */
+
+
+
+.custom-login-btn:hover {
+  background-color: transparent !important;  /* No white background */
+  color: rgb(32, 29, 29) !important; /* Keep text white */
+  border-color:rgb(32, 29, 29)!important; /* Optional: Keep border white */
+}
+
+.custom-register-btn:hover {  /* No white background */
+  color:  rgb(32, 29, 29) !important; /* Keep text white */
+  border-color: #28a745 !important; /* Keeps green border */
+}

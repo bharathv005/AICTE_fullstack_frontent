@@ -23,8 +23,9 @@ const Navbar = () => {
         </li>
     
       </ul>
-      <a class="btn btn-outline-light text-white px-3" href="/login">Login</a>
-      <a class="btn btn-success text-white px-3" href="/register">Register</a>
+      <a class="btn btn-outline-light text-white px-3 custom-login-btn" href="/login">Login</a>
+        <a class="btn btn-success text-white px-3 custom-register-btn" href="/register">Register</a>
+
 
     </div>
   </div>
